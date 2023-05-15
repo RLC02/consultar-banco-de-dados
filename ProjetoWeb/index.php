@@ -42,6 +42,7 @@ try
                         <th scope="col">Bairro</th>
                         <th scope="col">Cep</th>
                         <th scope="col">Cidade</th>
+                        <th scope="col">Estado</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -59,12 +60,15 @@ try
                 <td scope="col">  
                 Bairro: <?php echo $rows [$i]['bairro']; ?><br>
                 </td>
+                <td scope="col">
+                Cep: <?php echo $rows [$i]['cep']; ?><br>
+                </td>    
                 <td scope="col">                 
                 Cidade: <?php echo $rows [$i]['cidade']; ?><br>
                 </td>
-                <td scope="col">
-                Cep: <?php echo $rows [$i]['cep']; ?><br>
-                </td>         
+                <td scope="col">                 
+                Estado: <?php echo $rows [$i]['estado']; ?><br>
+                </td>     
                 </tbody>
 <?php
 }
