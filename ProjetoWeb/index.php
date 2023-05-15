@@ -52,22 +52,22 @@ try
         $rows = $result->fetchAll();
         for($i=0; $i < count($rows); $i++){ ?>
                 <td scope="col"> 
-                Nome: <?php echo $rows [$i]['nome']; ?><br>             
+                <?php echo $rows [$i]['nome']; ?><br>             
                 </td>
                 <td scope="col">  
-                Endereço: <?php echo $rows [$i]['endereco']; ?><br>
+                <?php echo $rows [$i]['endereco']; ?><br>
                 </td>
                 <td scope="col">  
-                Bairro: <?php echo $rows [$i]['bairro']; ?><br>
+                <?php echo $rows [$i]['bairro']; ?><br>
                 </td>
                 <td scope="col">
-                Cep: <?php echo $rows [$i]['cep']; ?><br>
+                <?php echo $rows [$i]['cep']; ?><br>
                 </td>    
                 <td scope="col">                 
-                Cidade: <?php echo $rows [$i]['cidade']; ?><br>
+                <?php echo $rows [$i]['cidade']; ?><br>
                 </td>
                 <td scope="col">                 
-                Estado: <?php echo $rows [$i]['estado']; ?><br>
+                <?php echo $rows [$i]['estado']; ?><br>
                 </td>     
                 </tbody>
 <?php
