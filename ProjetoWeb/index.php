@@ -29,12 +29,12 @@ try
 </head>
 <body>
 
-    
+<div class="container">
 <div class="Dados">
     <div class="row">
         <p class="TPrincipal">Consultar Dados de clientes</p>
         <div class="table-responsive">
-            <table class="table">
+            <table class="table table-bordered border-dark">
                 <thead>
                     <tr>
                         <th scope="col">Nome</th>
@@ -76,6 +76,7 @@ try
             </table>
         </div>
     </div>
-</div>      
+</div>  
+</div>    
 </body>
 </html>

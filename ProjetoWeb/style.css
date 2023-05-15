@@ -1,17 +1,18 @@
 body{
      background-color: #cccccc;
+     
 }
- .Dados{
-     padding-top: 2%;
-     padding-bottom: 4%;
-     padding-left: 0%;
-     margin-left: 30%;
-     margin-right: 25%;
-}
+
 th{
-     background-color: #007bff !important;
+     background-color: #008080 !important;
 }
+.container{
+     padding-top: 4%;
+}
+
 .TPrincipal{
 align-items: center;
 text-align: center;
+font-size: large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
